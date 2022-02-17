@@ -136,7 +136,7 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 .navbar {
-    position: relativ;
+    position: fixed;;
     transition: 0.60s;
     z-index: 999;
 }
@@ -172,10 +172,10 @@ a:focus {
 
 @media (min-width: 992px) {
     .navbar {
-        position: absolute;
+        position: fixed;
         width: 100%;
         padding: 30px 60px;
-        background: transparent !important;
+        background: #f02e46 !important;
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }

@@ -6,8 +6,7 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-"Hey I'm",
-"Anurag Roshan",
+"I'm",
 "Competitive Programmer", "Web Developer", "Aspiring Cloud Developer"
 ];
 
