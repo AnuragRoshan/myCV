@@ -359,6 +359,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
+    margin-bottom: 12rem;
     color: #EF233C;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
@@ -514,12 +515,13 @@ a:focus {
     }
 }
 
-.btn{
-    margin-bottom: 12rem;
-}
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+
+
+
+
 /* .about-image{
     height: 50%;
     border: black bold 20px;
@@ -1083,3 +1085,32 @@ h1{
         padding: 0 5px;
     }
 }
+
+
+/* GOTO top BTN */
+#myBtn {
+    display: none;
+    
+    box-shadow: inset 0 0 0 50px #EF233C;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    /* border: solid 0.5px #EF233C ; */
+    outline: none;
+    background-color: #EF233C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+    color: #EF233C;
+    box-shadow: inset 0 0 0 0 #EF233C;
+
+    transition: 300ms;
+  }
+  /* GOTO top BTN End */
