@@ -1,10 +1,27 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
 html{
     scroll-behavior: smooth;
 }
 body {
+
+    /* background-color: #e5e5f7;
+    /* opacity: 0.8; */
+    /* background-image:  radial-gradient(#EF233C 0.5px, transparent 0.5px), radial-gradient(#EF233C 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px; */
+ 
+    background-image: url("../bgportfolio2.png") !important;
+    
+    background-color: #EF233C;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
     scroll-behavior: smooth;
 
     color: #797979;
@@ -44,6 +61,16 @@ a:focus {
 
 .container-fluid {
     max-width: 1366px;
+    
+}
+
+.bottombar{
+    background-image: url("../bgportfolio2.png");
+        background-color: #f02e46 !important;
+        /* background: #f02e46 !important; */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btn {
@@ -182,9 +209,15 @@ a:focus {
         position: fixed;
         width: 100%;
         padding: 30px 60px;
-        background: #f02e46 !important;
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
+        background-image: url("../bgportfolio2.png");
+        background-color: #f02e46 !important;
+        /* background: #f02e46 !important; */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
     }
     
     .navbar.nav-sticky {
@@ -231,7 +264,7 @@ a:focus {
 
 @media (max-width: 991.98px) {   
     .navbar {
-        padding: 15px;
+        /* padding: 15px; */
         background: #ffffff !important;
     }
     
@@ -303,10 +336,11 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
+    background-image: url("../bgportfolio2.png");
     padding: 120px 0 0 0;
-    overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
-    background-position: center;
+    opacity: 0.9;
+    background-color: #EF233C;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
