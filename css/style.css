@@ -852,7 +852,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 1000px 1000px 1000px 1000px #EF233C;
 }
 
 .service .service-icon {
