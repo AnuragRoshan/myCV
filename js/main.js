@@ -6,7 +6,7 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-"Competitive Programmer", "Web Developer", "Aspiring Cloud Developer"
+"Competitive Programmer", "Web Developer", "WEB 3.0 Enthusiast"
 ];
 
 // Speed (in milliseconds) of typing.
