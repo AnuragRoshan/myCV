@@ -675,6 +675,154 @@ a:focus {
 }
 
 
+/***************** project profile css *******************/
+
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .carousel{
+    border-right:15px  solid #8880a4;
+    border-bottom:15px  solid #8880a4;
+  }
+  .projectcont:hover{
+     transition: all 0.1s ease-in-out 0s;
+     box-shadow: 12px 18px 12px grey;
+  }
+  
+  .overlay{
+    background-color: #635a86;
+  }
+
+  .labelo{
+    color: white;
+  }
+
+   /* dot stretching loading */
+
+  .stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem 0;
+    margin: 0 -5%;
+    overflow: hidden;
+  }
+
+  .dot-stretching {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    color: grey;
+    transform: scale(1.25, 1.25);
+    animation: dotStretching 2s infinite ease-in;
+  }
+  
+  .dot-stretching::before, .dot-stretching::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot-stretching::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    color: grey;
+    animation: dotStretchingBefore 2s infinite ease-in;
+  }
+  
+  .dot-stretching::after {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    color: grey;
+    animation: dotStretchingAfter 2s infinite ease-in;
+  }
+  
+  @keyframes dotStretching {
+    0% {
+      transform: scale(1.25, 1.25);
+    }
+    50%,
+    60% {
+      transform: scale(0.8, 0.8);
+    }
+    100% {
+      transform: scale(1.25, 1.25);
+    }
+  }
+  
+  @keyframes dotStretchingBefore {
+    0% {
+      transform: translate(0) scale(0.7, 0.7);
+    }
+    50%,
+    60% {
+      transform: translate(-20px) scale(1, 1);
+    }
+    100% {
+      transform: translate(0) scale(0.7, 0.7);
+    }
+  }
+  
+  @keyframes dotStretchingAfter {
+    0% {
+      transform: translate(0) scale(0.7, 0.7);
+    }
+    50%,
+    60% {
+      transform: translate(20px) scale(1, 1);
+    }
+    100% {
+      transform: translate(0) scale(0.7, 0.7);
+    }
+  }
+  
+
+
+
+
+
+
+
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
