@@ -732,7 +732,7 @@ p.cursor::after {
 }
 .projectcont:hover {
   transition: all 0.1s ease-in-out 0s;
-  box-shadow: 12px 18px 12px grey;
+  /* box-shadow: 12px 18px 12px grey; */
 }
 
 .overlay {
