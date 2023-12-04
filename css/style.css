@@ -601,6 +601,7 @@ p.cursor::after {
   height: 50%;
   border: black bold 20px;
   box-shadow: 12px 12px 12px grey;
+  width: 100%;
 }
 .about {
   position: relative;
@@ -634,7 +635,7 @@ p.cursor::after {
 }
 .about .about-img img {
   position: relative;
-  width: 35rem;
+  width: 100%;
   text-align: center;
   height: 580px;
   object-fit: cover;
@@ -687,6 +688,10 @@ p.cursor::after {
 @media (max-width: 991.98px) {
   .about .about-content {
     padding: 45px 15px 0 15px;
+  }
+  .hero-content.side-img,
+  .vert-move {
+    display: none;
   }
 }
 
