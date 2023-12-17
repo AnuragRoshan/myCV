@@ -5,7 +5,7 @@ var i = 0,
   isParagraph = false;
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
-var textArray = ["Web Developer", "WEB 3.0 Enthusiast", "Exploring DevOPS"
+var textArray = ["Web Developer", "Exploring DevOPS"
 ];
 
 // Speed (in milliseconds) of typing.
